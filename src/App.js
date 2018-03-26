@@ -10,9 +10,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React JS</h2>
         </div>
-        <Person />
-        <Person />
-        <Person />
+        <Person name="Max" age="29"/>
+        <Person name="hamza" age="22"/>
+        <Person name="faizan" age="21">Some additional information</Person>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
