@@ -30,7 +30,12 @@ class App extends Component {
   })
   }
   render() {
-    
+    const style = {
+      backgroundColor:'white',
+      font:'inherit',
+      border: '1px solid blue',
+      padding: '8px'
+    };
     
     return (
       <div className="App">
@@ -38,7 +43,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React JS</h2>
         </div>
-        <button onClick={this.switchNameHandler.bind(this,'xyz')}>SwitchName</button>
+        <button 
+        style={style}
+        onClick={this.switchNameHandler.bind(this,'xyz')}>SwitchName</button>
         <Person 
         name={this.state.persons[0].name} 
         age={this.state.persons[0].age}
