@@ -18,8 +18,9 @@ class App extends Component {
         </p>
       </div>
     );
-  }
+  } 
 }
+//display additional information on the component by using props.children
 //component rendered in line 13
 //components reusability just add this <Person />
 export default App;
