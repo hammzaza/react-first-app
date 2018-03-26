@@ -11,6 +11,8 @@ class App extends Component {
           <h2>Welcome to React JS</h2>
         </div>
         <Person />
+        <Person />
+        <Person />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,4 +21,5 @@ class App extends Component {
   }
 }
 //component rendered in line 13
+//components reusability just add this <Person />
 export default App;
