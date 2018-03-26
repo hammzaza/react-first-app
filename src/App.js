@@ -31,7 +31,11 @@ class App extends Component {
         </div>
         <button onClick={this.switchNameHandler}>SwitchName</button>
         <Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>
-        <Person name={this.state.persons[1].name} age={this.state.persons[1].age}/>
+        <Person 
+        name={this.state.persons[1].name} 
+        age={this.state.persons[1].age}
+        click={this.switchNameHandler}
+        />
         <Person name={this.state.persons[2].name} age={this.state.persons[2].age}>Some additional info</Person>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
